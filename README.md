@@ -65,7 +65,6 @@ Example inputs for the briadModel function are shown below
 %2) regular braid pattern (2/2)
 %3) Hercules braid pattern (3/3)
 %**************************************************************************
-
 % %% Initial parameters for braid geometry
 % %*************************************************************************
 % a = 0.38; %yarn thickness
