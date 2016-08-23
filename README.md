@@ -36,7 +36,6 @@ Braid model settings can be saved using the 'Save Results' button.
 
 The save results button will save the entered braid geometry, yarn/matrix mechanical properties and will save the braid model results to a single CSV file.
 
-
 Installation:
 
 The program can be installed using several approaches
