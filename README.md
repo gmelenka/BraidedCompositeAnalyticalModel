@@ -15,7 +15,25 @@ Current work on braided composites typically focuses on one specific pattern.  T
 Another limitation of current studies that examine braided composites is that most researchers do not take into consideration the geometry and the physical process of manufacturing composite braids.
 Both braid geometry and the manufacturing process has an effect on the mechanical properties of tubular braided composites.
 
-![Braided Composite AAnalytical Model ScreenShot](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/braidedCompositeModulus.png)
+
+The user interface for the Braided Composiite Analyitcal Model is show below
+![Braided Composite Analytical Model ScreenShot](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/braidedCompositeModulus.png)
+
+The user interface allows for the geometric properties as well as mechanical properties of yarns and matrix used to create composite braided to be easily adjusted.
+
+The user can load and save braid geometries and yarn/matrix mechanical properites using the Load/Save Data panel.
+
+Once the desired geometry and mechanical properties have been entered the 'Start' button is selected to display the resulting mechanical properties.
+
+There are two options for displaying the mechanical properties of braided composites: Braid Angle Range and Single Braid Angle
+
+The option "Braid Angle Range" will create two plots which show the effect of braid angle on elastic and shear moduli
+
+The option "Single Angle" will display the mechanical properites for a specific braid angle.
+
+Braid model settings can be saved using the 'Save Results' button.
+
+The save results button will save the entered braid geometry, yarn/matrix mechanical properties and will save the braid model results to a single CSV file.
 
 
 Installation:
