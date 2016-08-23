@@ -65,19 +65,20 @@ Example inputs for the briadModel function are shown below
 %2) regular braid pattern (2/2)
 %3) Hercules braid pattern (3/3)
 %**************************************************************************
+
 %Initial parameters for braid geometry
 % a = 0.38; %yarn thickness
 % b = 3.1; %yarn width
 % D = 11.1; %mandrel diameter
 % t = 2*a;
 % braidType = 3; %type of braid see above
-% 
+
 % R = D/2; % mandrel size mm
 % r0 = R+a; % nomial braid radius mm
-% 
+
 % Define the braid angle between 30 and 60 degrees
-% angle = linspace(30,60,100);
-% 
+
+% angle = linspace(30,60,100); 
 % %Define braiding machine parameters
 % n = 18; %number of carriers
 % Nc = 2*n; % total number of carriers
@@ -87,7 +88,7 @@ Example inputs for the briadModel function are shown below
 % Em = 3.5;
 % Gm = 1.3;
 % num = 0.3;
-% 
+
 % Vf = 0.6;
 % Vv = 4.35 / 100;
 % %Vv = 0;
@@ -95,6 +96,7 @@ Example inputs for the briadModel function are shown below
 % *************************************************************************
 % %Fiber, Matrix and Fiber+Matrix Material Properties
 % %Thesis
+
 % Ef1 = 130;
 % Ef2 = 7.3;
 % Ef3 = Ef2;
@@ -108,6 +110,7 @@ Example inputs for the briadModel function are shown below
 % nuf32 = nuf23*(Ef3/Ef2);
 % **************************************************************************
 % %Source: Kevlar/epoxy
+
 % E1 = 79.7;
 % E2 = 5.9;
 % E3 = E2;
@@ -121,7 +124,7 @@ Example inputs for the briadModel function are shown below
 % nu21 = nu12*(E2/E1);
 % nu31 = nu13*(E3/E1);
 % nu32 = nu23*(E3/E2);
-% 
+
 % initial transversely isotropic compliance matrix for yarns+epoxy
 % S = [1/E1 -nu21/E2 -nu31/E3 0 0 0;...
 %     -nu12/E1 1/E2 -nu32/E3 0 0 0;...
@@ -129,8 +132,8 @@ Example inputs for the briadModel function are shown below
 %     0 0 0 1/G23 0 0;...
 %     0 0 0 0 1/G13 0;...
 %     0 0 0 0 0 1/G12];
-% 
-% 
+ 
+
 % initial compliance matrix for epoxy
 % Sm = [1/Em -num/Em -num/Em 0 0 0;...
 %      -num/Em 1/Em -num/Em 0 0 0;...
