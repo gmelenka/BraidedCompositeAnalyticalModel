@@ -65,8 +65,7 @@ Example inputs for the briadModel function are shown below
 %2) regular braid pattern (2/2)
 %3) Hercules braid pattern (3/3)
 %**************************************************************************
-% %% Initial parameters for braid geometry
-% %*************************************************************************
+%Initial parameters for braid geometry
 % a = 0.38; %yarn thickness
 % b = 3.1; %yarn width
 % D = 11.1; %mandrel diameter
@@ -83,9 +82,6 @@ Example inputs for the briadModel function are shown below
 % n = 18; %number of carriers
 % Nc = 2*n; % total number of carriers
 % beta = 2*pi / n; % braid shift angle (rad)
-% 
-% 
-% **************************************************************************
 % % Material Properties
 % Matrix material properties
 % Em = 3.5;
@@ -97,7 +93,7 @@ Example inputs for the briadModel function are shown below
 % %Vv = 0;
 % Vm = 1 - Vf - Vv
 % *************************************************************************
-% %Fiber, Matrix and Fiber+Matrix Material Properties from Carey/Ayranci
+% %Fiber, Matrix and Fiber+Matrix Material Properties
 % %Thesis
 % Ef1 = 130;
 % Ef2 = 7.3;
