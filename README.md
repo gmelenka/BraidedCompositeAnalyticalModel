@@ -6,10 +6,12 @@ Analytical Model for analyzing the mechanical properties of tubular braided comp
 
 Braided Composites can be manufactured in several different braiding patterns: Diamond (1/1), Regular (2/2) and Hercules (3/3).  Examples of the different patterns are shown below
 
+
+Diamond (1/1)
 ![Diamond (1/1)](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/diamond.jpeg)
-
+Regular (2/2)
 ![Regular (2/2)](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/regular.jpeg)
-
+Hercules(3/3)
 ![Hercules (3/3](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/hercules.jpeg)
 
 Current work on braided composites typically focuses on one specific pattern.  The goal of this model is to be able to predict the mechanical properties of all the available braiding patterns.
