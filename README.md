@@ -20,8 +20,8 @@ Both braid geometry and the manufacturing process has an effect on the mechanica
 of braided composites.  
 
 
-The user interface for the Braided Composiite Analytical Model is show below
-![Braided Composite Analytical Model ScreenShot](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/braidedCompositeModulus.png)
+The user interface for the Braided Composite Analytical Model is show below
+![Braided Composite Analytical Model ScreenShot](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/braidedCompositeModulus01.png)
 
 The user interface allows for the geometric properties as well as mechanical properties of yarns and matrix used to create composite braided to be easily adjusted.
 
