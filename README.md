@@ -1,4 +1,4 @@
-# BraidedCompositeAnalyticalModel
+# Braided Composite Analytical Model
 
 ![Braided Composite Analytical Model](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/BraidModelLogo-01.png)
 
@@ -21,6 +21,7 @@ of braided composites.
 
 
 The user interface for the Braided Composite Analytical Model is show below
+
 ![Braided Composite Analytical Model ScreenShot](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/braidedCompositeModulus01.png)
 
 The user interface allows for the geometric properties as well as mechanical properties of yarns and matrix used to create composite braided to be easily adjusted.
@@ -43,17 +44,17 @@ The save results button will save the entered braid geometry, yarn/matrix mechan
 
 The program can be installed using several approaches
 
-1) Install as a Matlab App
+## 1) Install as a Matlab App
 The Braided Composite Analytical Model has been developed using the Matlab App Developer program which is available in Matlab 2016a
 The Braided Composite Analytical Model can be installed by selecting the file Braided Composite Elastic Properties.mlappinstall
 This will add the Braided Composite Analytical Model to the Apps ribbon bar in Matlab
 
-2) Install as Exe
+## 2) Install as Exe
 The Braided Composite Analytical Model can be run as an executable file.
 Select the file BraidedCompositeAnalyticalModel.exe to install the program. A MATLAB runtime engine will be required to run this file.  The runtime engine will automatically download the first timee the executable is run.
 Once the runtime engine has been isntalled the file BraidedCompositeAnalyticalModel.exe can be used.  Once installed, this option will not require MATLAB.
 
-3) Run MATLAB scripts
+## 3) Run MATLAB scripts
 The main braid model has been written as matlab m-file functions.  The m-file functions can be used within the MATLAB environment without the need of a graphical user interface.  In order to run the braid model the
 function braidModel.m will be used.  The input and output of the braidModel function is shown below.  The function will return the mechanical properties of a composite braid.
 
