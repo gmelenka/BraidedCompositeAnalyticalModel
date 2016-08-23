@@ -45,8 +45,8 @@ The save results button will save the entered braid geometry, yarn/matrix mechan
 The program can be installed using several approaches
 
 ## 1) Install as a Matlab App
-The Braided Composite Analytical Model has been developed using the Matlab App Developer program which is available in Matlab 2016a
-The Braided Composite Analytical Model can be installed by selecting the file Braided Composite Elastic Properties.mlappinstall
+The Braided Composite Analytical Model (BraidCAM) has been developed using the Matlab App Developer program which is available in Matlab 2016a
+The Braided Composite Analytical Model can be installed by selecting the file Braid CAM.mlappinstall
 This will add the Braided Composite Analytical Model to the Apps ribbon bar in Matlab
 
 ## 2) Install as Exe

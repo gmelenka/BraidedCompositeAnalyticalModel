@@ -1,14 +1,15 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="461693297" file="D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\BraidedCompositeAnalyticalModel\Braided Composite Analytical Model.prj" location="D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\BraidedCompositeAnalyticalModel" name="Braided Composite Analytical Model" target="target.mlapps" target-name="Package App">
-    <param.appname>Braided Composite Analytical Model</param.appname>
+  <configuration build-checksum="2278833103" file="D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\BraidedCompositeAnalyticalModel\Braid CAM.prj" location="D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\BraidedCompositeAnalyticalModel" name="Braid CAM" target="target.mlapps" target-name="Package App">
+    <param.appname>Braid CAM</param.appname>
     <param.authnamewatermark>Garrett Melenka</param.authnamewatermark>
     <param.email>gmelenka@ualberta.ca</param.email>
     <param.company>University of Alberta</param.company>
     <param.icon />
     <param.icons />
-    <param.summary>Determine the elastic properties of tubular braided composites</param.summary>
-    <param.description />
-    <param.screenshot>${PROJECT_ROOT}\braidedCompositeModulus.png</param.screenshot>
+    <param.summary>Braided Composite Analytical Model</param.summary>
+    <param.description>&lt;b&gt;Braid&lt;/b&gt; &lt;b&gt;C&lt;/b&gt;omposite &lt;b&gt;A&lt;/b&gt;nalytical &lt;b&gt;M&lt;/b&gt;odel
+Determine the elastic properties of tubular braided composites</param.description>
+    <param.screenshot>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\braidedCompositeModulus.png</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
@@ -19,7 +20,6 @@
     <unset>
       <param.icon />
       <param.icons />
-      <param.description />
       <param.version />
       <param.products.name />
       <param.products.id />
@@ -31,16 +31,18 @@
       <file>${PROJECT_ROOT}\braidedCompositeModulus.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\braidModel.m</file>
-      <file>${PROJECT_ROOT}\CS123Compliance.m</file>
-      <file>${PROJECT_ROOT}\CS123Stiffness.m</file>
-      <file>${PROJECT_ROOT}\transformXYZ.m</file>
-      <file>${PROJECT_ROOT}\YarnStiffness.m</file>
+      <file>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\braidModel.m</file>
+      <file>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\CS123Compliance.m</file>
+      <file>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\CS123Stiffness.m</file>
+      <file>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\transformXYZ.m</file>
+      <file>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\YarnStiffness.m</file>
     </fileset.depfun>
     <fileset.resources>
       <file>${PROJECT_ROOT}\diamond.jpeg</file>
       <file>${PROJECT_ROOT}\hercules.jpeg</file>
       <file>${PROJECT_ROOT}\regular.jpeg</file>
+      <file>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\CompositeAppLogo_256.jpeg</file>
+      <file>D:\Google Drive U of A\Melenka-PhDThesis\Appendix A-BraidModelCode\ModelCode\MultipurposeComposites.jpeg</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
