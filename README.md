@@ -1,4 +1,4 @@
-# Braided Composite Analytical Model
+# Braided Composite Analytical Model (Braid CAM)
 
 ![Braided Composite Analytical Model](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/BraidModelLogo-01.png)
 
