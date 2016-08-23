@@ -60,6 +60,7 @@ function braidModel.m will be used.  The input and output of the braidModel func
 [Ex, Ey, Ez, GxyCombined, GyzCombined, GzxCombined] = braidModel(S, Sm, angle, n, r0, a, b, beta, braidType)
 
 Example inputs for the briadModel function are shown below
+
 %The following braid patterns can be analyzed using this method:
 %1) diamond braid pattern (1/1)
 %2) regular braid pattern (2/2)
@@ -95,7 +96,7 @@ Example inputs for the briadModel function are shown below
 % Vm = 1 - Vf - Vv
 % *************************************************************************
 % %Fiber, Matrix and Fiber+Matrix Material Properties
-% %Thesis
+% *************************************************************************
 
 % Ef1 = 130;
 % Ef2 = 7.3;
@@ -110,6 +111,7 @@ Example inputs for the briadModel function are shown below
 % nuf32 = nuf23*(Ef3/Ef2);
 % **************************************************************************
 % %Source: Kevlar/epoxy
+%***************************************************************************
 
 % E1 = 79.7;
 % E2 = 5.9;
