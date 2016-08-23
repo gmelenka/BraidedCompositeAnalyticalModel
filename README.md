@@ -50,9 +50,9 @@ The Braided Composite Analytical Model can be installed by selecting the file Br
 This will add the Braided Composite Analytical Model to the Apps ribbon bar in Matlab
 
 ## 2) Install as Exe
-The Braided Composite Analytical Model can be run as an executable file.
-Select the file BraidedCompositeAnalyticalModel.exe to install the program. A MATLAB runtime engine will be required to run this file.  The runtime engine will automatically download the first timee the executable is run.
-Once the runtime engine has been isntalled the file BraidedCompositeAnalyticalModel.exe can be used.  Once installed, this option will not require MATLAB.
+The Briad CAM can be run as an executable file.
+Select the file BraidCAM.exe to install the program. A MATLAB runtime engine will be required to run this file.  The runtime engine will automatically download the first timee the executable is run.
+Once the runtime engine has been isntalled the file BraidCAM.exe can be used.  Once installed, this option will not require MATLAB.
 
 ## 3) Run MATLAB scripts
 The main braid model has been written as matlab m-file functions.  The m-file functions can be used within the MATLAB environment without the need of a graphical user interface.  In order to run the braid model the
