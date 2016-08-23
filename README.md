@@ -1,6 +1,6 @@
 # BraidedCompositeAnalyticalModel
 
-![Braided Composite Analytical Model](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/BraidModelLogo-01_256.png)
+![Braided Composite Analytical Model](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/BraidModelLogo-01.png)
 
 Analytical Model for analyzing the mechanical properties of tubular braided composites
 
