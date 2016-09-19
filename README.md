@@ -8,7 +8,7 @@ Braided Composites can be manufactured in several different braiding patterns: D
 
 
 ## Diamond (1/1)
-![Diamond (1/1)](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/diamond.jpeg)
+![Diamond (1/1)](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/diamond.jpeg = 200px)
 ## Regular (2/2)
 ![Regular (2/2)](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/regular.jpeg)
 ## Hercules(3/3)
