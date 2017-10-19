@@ -2,7 +2,7 @@
 
 ![Braided Composite Analytical Model](https://raw.githubusercontent.com/gmelenka/BraidedCompositeAnalyticalModel/master/BraidModelLogo-01.png)
 
-Analytical Model for analyzing the mechanical properties of tubular braided composites
+Analytical model for analyzing the mechanical properties of tubular braided composites
 
 Braided Composites can be manufactured in several different braiding patterns: Diamond (1/1), Regular (2/2) and Hercules (3/3).  Examples of the different patterns are shown below
 
@@ -80,7 +80,7 @@ Example inputs for the briadModel function are shown below
 
 % Define the braid angle between 30 and 60 degrees
 
-% angle = linspace(30,60,100); 
+% angle = linspace(30,60,100);
 % %Define braiding machine parameters
 % n = 18; %number of carriers
 % Nc = 2*n; % total number of carriers
@@ -135,7 +135,7 @@ Example inputs for the briadModel function are shown below
 %     0 0 0 1/G23 0 0;...
 %     0 0 0 0 1/G13 0;...
 %     0 0 0 0 0 1/G12];
- 
+
 
 % initial compliance matrix for epoxy
 % Sm = [1/Em -num/Em -num/Em 0 0 0;...
